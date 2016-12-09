@@ -28,7 +28,7 @@
   },
   "main": "./dist/vue-ionicons.js",
   "dependencies": {
-    "ionicons": "^3.0.0",
+    "ionicons": "^2.0.1",
     "vue": "^2.0.1"
   },
   "devDependencies": {
