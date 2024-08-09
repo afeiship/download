@@ -27,7 +27,8 @@ const download = async (inOptions: DownloadOptions) => {
   const res = await fetch(url, options);
   if (!res.ok) throw new Error(`unexpected response ${res.statusText}`);
 
-  const _filename = filename || url.split('/').pop();
+  const _url = url.split('?')[0];
+  const _filename = filename || _url.split('/').pop();
   if (!_filename) throw new Error('No filename provided');
   const destination = path.resolve(cwd, _filename);
   mkdirpSync(path.dirname(destination));

@@ -1,5 +1,5 @@
 {
-  "name": "@jswork/download",
+  "name": "@jswork/node-down",
   "version": "1.0.1",
   "description": "Download file use fetch.",
   "main": "./dist/index.cjs.js",
