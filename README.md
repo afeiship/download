@@ -8,23 +8,18 @@
 
 ## installation
 ```shell
-npm install @jswork/download
+npm install @jswork/node-down
 ```
 
 ## usage
 ```js
-import download from '@jswork/download';
+import download from '@jswork/node-down';
 
 await download({
   filename: 'test.jpg',
   cwd: '__tests__',
   url: 'https://tva1.sinaimg.cn/large/007S8ZIlgy1gexw87htqhj305k05k74o.jpg',
 });
-```
-
-## types
-```ts
-/// <reference types="@jswork/download/global.d.ts" />
 ```
 
 ## license
