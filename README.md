@@ -15,7 +15,11 @@ npm install @jswork/download
 ```js
 import download from '@jswork/download';
 
-// usage goes here.
+await download({
+  filename: 'test.jpg',
+  cwd: '__tests__',
+  url: 'https://tva1.sinaimg.cn/large/007S8ZIlgy1gexw87htqhj305k05k74o.jpg',
+});
 ```
 
 ## types
