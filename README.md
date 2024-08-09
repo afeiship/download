@@ -8,31 +8,32 @@
 
 ## installation
 ```shell
-npm install @jswork/node-down
+npm install @jswork/download
 ```
 
 ## usage
 ```js
-import download from '@jswork/node-down';
+import download from '@jswork/download';
 
-await download({
-  filename: 'test.jpg',
-  cwd: '__tests__',
-  url: 'https://tva1.sinaimg.cn/large/007S8ZIlgy1gexw87htqhj305k05k74o.jpg',
-});
+// usage goes here.
+```
+
+## types
+```ts
+/// <reference types="@jswork/download/global.d.ts" />
 ```
 
 ## license
 Code released under [the MIT license](https://github.com/afeiship/download/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@jswork/node-down
-[version-url]: https://npmjs.org/package/@jswork/node-down
+[version-image]: https://img.shields.io/npm/v/@jswork/download
+[version-url]: https://npmjs.org/package/@jswork/download
 
-[license-image]: https://img.shields.io/npm/l/@jswork/node-down
+[license-image]: https://img.shields.io/npm/l/@jswork/download
 [license-url]: https://github.com/afeiship/download/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/node-down
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/download
 [size-url]: https://github.com/afeiship/download/blob/master/dist/index.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@jswork/node-down
-[download-url]: https://www.npmjs.com/package/@jswork/node-down
+[download-image]: https://img.shields.io/npm/dm/@jswork/download
+[download-url]: https://www.npmjs.com/package/@jswork/download
