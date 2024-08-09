@@ -1,6 +1,6 @@
 {
-  "name": "@jswork/download",
-  "version": "1.0.0",
+  "name": "@jswork/node-down",
+  "version": "1.0.1",
   "description": "Download file use fetch.",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.esm.js",
@@ -29,5 +29,12 @@
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "keywords": [
+    "download",
+    "fetch",
+    "file",
+    "node",
+    "nodejs"
+  ]
 }
